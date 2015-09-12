@@ -1,0 +1,14 @@
+# This file is used to map the imported assets in the asset list to your IoT Foundation devices. 
+sourceType,sourceId,targetType,targetId,action
+d:orgid:iot-device-type,device001,asset,5001,+
+d:orgid:iot-device-type,device002,asset,5002,+
+d:orgid:iot-device-type,device003,asset,5002,+
+
+# Where:
+# sourceType - Consists of the following IoT Foundation data for your device:
+# orgid - Your IoT Foundation organization ID
+# iot-device-type - Your IoT Foundation Device Type
+# sourceID - Your IoT Foundation Device ID
+# targetType - Use the word asset to create an asset mapping.
+# targetID - The ASSETNUM entry for the asset from the asset.csv file
+# action - A + symbol means that the asset is mapped, and a - symbol means that the asset is removed from mapping.
